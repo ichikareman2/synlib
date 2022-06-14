@@ -8,6 +8,11 @@
   "projects": {
     "synlib": {
       "projectType": "library",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "sass"
+        }
+      },
       "root": "projects/synlib",
       "sourceRoot": "projects/synlib/src",
       "prefix": "syn",

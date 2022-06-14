@@ -7,7 +7,7 @@
     "build": "ng build synlib",
     "watch": "ng build synlib --watch --configuration development",
     "test": "ng test synlib",
-    "prepare": "npm run build"
+    "postinstall": "npm run build"
   },
   "private": true,
   "dependencies": {
